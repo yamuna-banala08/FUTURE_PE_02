@@ -1,40 +1,38 @@
-# 🎥 AI Content Marketing using UGC Ads  
-### Prompt Engineering Task 2 (2026)
+# GlowCare Skin Clinic Website
+
+A modern and responsive website created for GlowCare Skin Clinic using HTML, CSS, and JavaScript.
+
+This website is designed to help a local skin clinic present its services clearly, build trust, and encourage users to book appointments.
 
 ---
 
-## 📌 Project Overview  
-This project focuses on generating **high-converting UGC (User Generated Content) ad scripts** using AI and prompt engineering.
+## Features
 
-Unlike traditional ads, UGC ads feel:
-- real  
-- relatable  
-- human  
-
-They are widely used by brands because they improve engagement and conversions.
-
----
-
-## 🏢 Business / Product Chosen  
-**GlowCare Skin Clinic – Acne Treatment (Hyderabad)**  
-
-- Category: Clinic / Skincare  
-- Target Audience: People struggling with acne  
-- Goal: Increase consultations and bookings  
+- Responsive homepage
+- Hero section with call-to-action
+- About section
+- Services section
+- Appointment booking button
+- Smooth scrolling effect
+- Fade-in animation for services
+- Mobile-friendly design
 
 ---
 
-## 🎯 Objective  
-To design a reusable AI prompt system that can:
+## Technologies Used
 
-- Generate short UGC-style ad scripts  
-- Create multiple hooks for the same product  
-- Follow proven ad frameworks (Problem → Solution → CTA)  
-- Adapt content for Instagram Reels / Ads  
-- Produce ready-to-use marketing content  
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
-## 🧠 Prompt Framework  
+## Project Structure
 
-### 🔹 Master Prompt  
+```text
+GlowCare-Skin-Clinic/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
