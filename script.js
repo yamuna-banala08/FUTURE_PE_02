@@ -1,30 +1,14 @@
 function showMessage() {
-  alert("Thank you! Your appointment request has been submitted.");
+    alert("Appointment booked! We will contact you soon.");
+}
+function showMessage() {
+    alert("Appointment booked! We will contact you soon.");
 }
 
-// Smooth scroll for Book Appointment button
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
+function submitForm(event) {
+    event.preventDefault();
 
-    const target = document.querySelector(this.getAttribute("href"));
+    let name = document.getElementById("name").value;
 
-    if (target) {
-      target.scrollIntoView({
-        behavior: "smooth"
-      });
-    }
-  });
-});
-
-// Fade-in effect for service boxes
-window.addEventListener("load", () => {
-  const boxes = document.querySelectorAll(".service-box");
-
-  boxes.forEach((box, index) => {
-    setTimeout(() => {
-      box.style.opacity = "1";
-      box.style.transform = "translateY(0)";
-    }, index * 200);
-  });
-});
+    alert("Thank you " + name + "! Your appointment is booked.");
+}
